@@ -10,7 +10,7 @@ Vamos implementar uma aplicação para gerar frases aleatórias de filmes e sér
 - Lembre-se de criar o projeto através do site do Spring Initializr, onde já é possível adicionar as dependências do Sping Web, Spring Data JPA, PostgreSQL e DevTools;
 - Crie o banco de dados diretamente pelo pgAdmin;
 - Para ter acesso ao script para popular o banco de dados, acesse esse [link](https://gist.github.com/jacqueline-oliveira/169494892c52ca4d7cd4c6caecd799d8).
-- DICA: Para fazer com que retorne a frase aleatória do banco, você pode usar uma consulta JPQL dessa forma: @Query("SELECT f FROM Frase f order by function('RANDOM') LIMIT 1")
+- DICA: Para fazer com que retorne a frase aleatória do banco, você pode usar uma consulta JPQL dessa forma: **`@Query("SELECT f FROM Frase f order by function('RANDOM') LIMIT 1")`**
 
  🔨 Objetivos do projeto
 ---
